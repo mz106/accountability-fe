@@ -1,0 +1,20 @@
+
+
+Basic App Idea
+
+I have a project. 
+
+The project has many tasks (e.g. run a marathon with many taining runs).
+
+I add my tasks with dates (e.g. 31/1/23 run 5 miles).
+
+I assign a friend to check in with me. 
+
+My friends has a task of checking my task on their list of tasks to check.
+
+My friend has a task and assigns me to check the task. 
+
+I have a task on my tasks to check list.
+
+
+
