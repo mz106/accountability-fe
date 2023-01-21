@@ -1,18 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import { useContext } from "react";
-import { UserContext } from "./context/userContext";
 import Layout from "./components/Layout/Layout";
+import { UserContextProvider } from "./context/userContext.jsx";
 
 function App() {
-  const { dummyState } = useContext(UserContext);
-
   return (
     <div className="App">
-      <Layout>
-        <h1>{dummyState}</h1>
-      </Layout>
+      <UserContextProvider>
+        <Layout />
+      </UserContextProvider>
     </div>
   );
 }
