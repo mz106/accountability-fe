@@ -4,10 +4,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import React from "react";
 
+import Layout from "./components/Layout/Layout.jsx";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Layout>
+      <App />
+    </Layout>
   </React.StrictMode>
 );
 

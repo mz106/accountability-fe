@@ -1,18 +1,21 @@
+import { useState } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-
-import { useContext } from "react";
-import { UserContext } from "../../context/userContext";
+import UserContext from "../../context/userContext";
 
 const Layout = ({ children }) => {
-  const { dummyState } = useContext(UserContext);
+  const [dummyState, setDummyState] = useState(
+    "Dummy state string from layout.jsx"
+  );
 
   return (
     <>
-      <Header />
-      <h1>{dummyState}</h1>
-      {children}
-      <Footer />
+      <UserContext.Provider value={{ dummyState, setDummyState }}>
+        <Header />
+        <h1>{dummyState}</h1>
+        <main>{children}</main>
+        <Footer />
+      </UserContext.Provider>
     </>
   );
 };
