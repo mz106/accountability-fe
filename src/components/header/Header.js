@@ -1,15 +1,14 @@
 import "./Header.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
 const Header = () => {
   return (
     <div className="header-wrapper">
       <div className="header-title-wrapper">
         <div className="header-logo-wrapper">
-          <img
-            src="testlogo.jpg"
-            alt="a standin for a logo"
-            className="header-logo-img"
-          />
+          <FontAwesomeIcon icon={faCoffee} className="header-logo" />
         </div>
         <div>
           <p>App Name</p>
