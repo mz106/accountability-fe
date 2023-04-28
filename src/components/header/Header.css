@@ -1,0 +1,35 @@
+.header-wrapper {
+  width: 100%;
+  height: 10vh;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.header-logo-wrapper {
+  width: 35%;
+  height: 50%;
+  border: 5px solid black;
+}
+
+.header-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-login-sign-menu {
+  display: flex;
+  margin-right: 20px;
+  width: 10%;
+  justify-content: space-between;
+}
