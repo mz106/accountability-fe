@@ -7,12 +7,12 @@ import HomePublicBottom from "./homePublicBottom/HomePublicBottom";
 
 const HomePublic = () => {
   return (
-    <>
+    <div className="home-wrapper">
       <Hero />
       <HomePublicDesc />
       <HomePublicWhy />
       <HomePublicBottom />
-    </>
+    </div>
   );
 };
 

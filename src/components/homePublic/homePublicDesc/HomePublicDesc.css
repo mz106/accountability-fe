@@ -1,0 +1,35 @@
+.home-public-desc-wrapper {
+  width: 111.4rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.home-public-desc-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10.1rem;
+}
+
+.home-public-desc-title {
+  font-size: 6rem;
+}
+
+.home-public-desc-text-container {
+  height: 52.8rem;
+  width: 111.4rem;
+}
+
+.home-public-desc-text {
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+}
