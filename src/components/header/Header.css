@@ -1,0 +1,42 @@
+.header-wrapper-outer {
+  width: 100%;
+  height: 10vh;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrapper-inner {
+  width: 90%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.header-logo-wrapper {
+  width: 25%;
+  height: 50%;
+}
+
+.header-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.header-login-sign-menu {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+}
