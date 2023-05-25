@@ -4,7 +4,7 @@ const HomePublicDesc = () => {
   return (
     <div className="home-public-desc-wrapper">
       <div className="home-public-desc-title-container">
-        <h2 className="home-public-desc-title">Who are we?</h2>
+        <h2 className="home-public-desc-title">Who are we??</h2>
       </div>
       <div className="home-public-desc-text-container">
         <p className="home-public-desc-text">
@@ -20,6 +20,22 @@ const HomePublicDesc = () => {
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in
         </p>
+      </div>
+      <div className="home-public-desc-imgs-container">
+        <div className="home-public-desc-img-container">
+          <img
+            src="/images/homePagePublic/hero/hero1.jpg"
+            alt="happy stuff"
+            className="home-public-desc-img"
+          />
+        </div>
+        <div className="home-public-desc-img-container">
+          <img
+            src="/images/homePagePublic/hero/hero1.jpg"
+            alt="happy stuff"
+            className="home-public-desc-img"
+          />
+        </div>
       </div>
     </div>
   );

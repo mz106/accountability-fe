@@ -5,10 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 10.1rem;
 }
 
 .home-public-desc-title-container {
@@ -26,10 +23,29 @@
 .home-public-desc-text-container {
   height: 52.8rem;
   width: 111.4rem;
+  margin-bottom: 10.1rem;
 }
 
 .home-public-desc-text {
   font-size: 4rem;
   text-align: center;
   width: 100%;
+}
+
+.home-public-desc-imgs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.home-public-desc-img-container {
+  width: 50.12rem;
+  height: 50.12rem;
+}
+
+.home-public-desc-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="hero-img-container">
           <img
             alt="something sweet"
-            src="./images/homePagePublic/hero/hero1.jpg"
+            src="/images/homePagePublic/hero/hero1.jpg"
             className="hero-img"
           />
         </div>

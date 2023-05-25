@@ -1,0 +1,32 @@
+.home-public-why-wrapper {
+  width: 111.4rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10.1rem;
+}
+
+.home-public-why-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10.1rem;
+}
+
+.home-public-why-title {
+  font-size: 6rem;
+}
+
+.home-public-why-text-container {
+  height: 24rem;
+  width: 111.4rem;
+}
+
+.home-public-why-text {
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+}
